@@ -1,38 +1,28 @@
-
-
-
-import ProductCard from '@/components/ui/ProductCard';
+import { products } from "@/content/Products";
 
 export default function ProductDetail({ params }) {
-  // In a real app, fetch product by ID
-  const product = {
-    id: params.id,
-    name: 'Solar-Powered Desk Lamp',
-    price: 49.99,
-    image: 'solar-lamp.jpg',
-    description: 'A revolutionary lamp that charges entirely through solar power. Perfect for your home office or bedside table.',
-    features: [
-      '10W solar panel',
-      '20 hours battery life',
-      '3 brightness levels',
-      'USB-C charging backup'
-    ]
-  };
+  const product = products.find((p) => p.id === params.id);
+
+  if (!product) {
+    return <div className="p-12 text-center">Product not found</div>;
+  }
 
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="grid md:grid-cols-2 gap-12">
         <div className="bg-gray-100 rounded-lg h-96 overflow-hidden">
-          <img 
-            src={`/images/${product.image}`} 
-            alt={product.name} 
+          <img
+            src={`/images/${product.image}`}
+            alt={product.name}
             className="w-full h-full object-contain"
           />
         </div>
         <div>
           <h1 className="text-3xl font-heading mb-4">{product.name}</h1>
-          <p className="text-2xl text-teal-600 mb-6">${product.price.toFixed(2)}</p>
-          
+          <p className="text-2xl text-teal-600 mb-6">
+            ${product.price.toFixed(2)}
+          </p>
+
           <div className="mb-8">
             <h2 className="text-xl font-semibold mb-2">Description</h2>
             <p className="text-gray-700">{product.description}</p>
