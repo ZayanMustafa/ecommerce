@@ -1,20 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --teal: #2DD4BF;
-  --coral: #FF7E6B;
-}
-
-/* Button hover animation */
-/* .button-hover {
-  @apply transition-transform hover:scale-105; */
-/* } */
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  background: #F5F5F4;
-}
 
 
   
