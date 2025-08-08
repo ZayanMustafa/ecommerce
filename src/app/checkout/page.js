@@ -3,8 +3,9 @@
 
 'use client';
 import { useState } from 'react';
-import CheckoutSteps from '@/components/sections/CheckoutSteps';
+// import CheckoutSteps from '@/components/sections/CheckoutSteps';
 import Button from '@/components/ui/Button';
+import CheckoutSteps from '@/components/sections/CheckoutSetup';
 
 export default function CheckoutPage() {
   const [step, setStep] = useState(1);
