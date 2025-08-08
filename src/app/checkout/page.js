@@ -90,7 +90,7 @@ export default function CheckoutPage() {
               <Button 
                 text="Place Order" 
                 href="/order-confirmed/123" 
-                color="coral" 
+                color="teal" 
               />
             </div>
           </div>

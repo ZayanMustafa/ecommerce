@@ -75,7 +75,7 @@ export default function CartPage() {
             <Button 
               text="Proceed to Checkout" 
               href="/checkout" 
-              color="coral" 
+              color="gray" 
               size="lg" 
               fullWidth 
             />
