@@ -9,7 +9,7 @@ export default function NotFound() {
       <h1 className="text-4xl font-bold text-teal-600 mb-4">404</h1>
       <h2 className="text-2xl mb-4">Page Not Found</h2>
       <p className="text-gray-600 mb-8">
-        The eco-friendly product you're looking for doesn't exist.
+        The eco-friendly product you&apos;re looking for doesn&apos;t exist.
       </p>
       <Link 
         href="/" 

@@ -1,4 +1,5 @@
 import { products } from "@/content/Products";
+import Image from "next/image";
 
 export default function ProductDetail({ params }) {
   const product = products.find((p) => p.id === params.id);
@@ -11,7 +12,9 @@ export default function ProductDetail({ params }) {
     <div className="container mx-auto px-4 py-12">
       <div className="grid md:grid-cols-2 gap-12">
         <div className="bg-gray-100 rounded-lg h-96 overflow-hidden">
-          <img
+          <Image
+            height={384}
+            width={384}
             src={`/images/${product.image}`}
             alt={product.name}
             className="w-full h-full object-contain"

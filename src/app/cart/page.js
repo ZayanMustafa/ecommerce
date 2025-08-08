@@ -5,6 +5,7 @@
 import useCart from '@/context/CartContext';
 import { motion } from 'framer-motion';
 import Button from '@/components/ui/Button';
+import Image from 'next/image';
 
 export default function CartPage() {
   const { items, removeItem } = useCart();
@@ -35,7 +36,9 @@ export default function CartPage() {
               >
                 <div className="flex items-center gap-4">
                   <div className="w-20 h-20 bg-gray-100 rounded-md overflow-hidden">
-                    <img 
+                    <Image
+                      height={80}
+                      width={80}
                       src={`/images/${item.image}`} 
                       alt={item.name} 
                       className="w-full h-full object-cover"

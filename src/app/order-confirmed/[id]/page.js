@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default async function OrderConfirmed({ params }) {
@@ -55,13 +56,13 @@ export default async function OrderConfirmed({ params }) {
       </div>
 
       <div className="text-center">
-        <p className="text-gray-600 mb-4">We've sent a confirmation to your email.</p>
-        <a 
+        <p className="text-gray-600 mb-4">We&apos;ve sent a confirmation to your email.</p>
+        <Link
           href="/products" 
           className="inline-block bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-md transition-colors"
         >
           Continue Shopping
-        </a>
+        </Link>
       </div>
     </div>
   );

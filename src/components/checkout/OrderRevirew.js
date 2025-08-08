@@ -82,7 +82,7 @@ export default function OrderReview({ formData, handleChange, prevStep }) {
           )}
           {formData.paymentMethod === 'cod' && (
             <p className="mt-2 text-gray-600">
-              You'll pay with cash when your order arrives
+              You&apos;ll pay with cash when your order arrives
             </p>
           )}
         </div>
