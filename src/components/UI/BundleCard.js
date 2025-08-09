@@ -1,11 +1,9 @@
-
-
-
 // components/cards/BundleCard.js
 'use client';
 import { motion } from 'framer-motion';
 import Button from '@/components/ui/Button';
 import Image from 'next/image';
+import { FaCheck } from 'react-icons/fa'; // Importing check icon from React Icons
 
 export default function BundleCard({
   name,
@@ -35,6 +33,7 @@ export default function BundleCard({
           fill
           className="object-cover"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority={false}
         />
       </div>
       
@@ -52,19 +51,7 @@ export default function BundleCard({
         <ul className="space-y-1 mb-6">
           {items.map((item, i) => (
             <li key={i} className="flex items-center">
-              <svg 
-                className="w-4 h-4 mr-2 text-teal-500" 
-                fill="none" 
-                stroke="currentColor" 
-                viewBox="0 0 24 24"
-              >
-                <path 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                  strokeWidth={2} 
-                  d="M5 13l4 4L19 7" 
-                />
-              </svg>
+              <FaCheck className="w-4 h-4 mr-2 text-teal-500" />
               {item}
             </li>
           ))}
@@ -87,4 +74,3 @@ export default function BundleCard({
     </motion.div>
   );
 }
-
