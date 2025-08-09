@@ -7,7 +7,8 @@ export const products = [
     id: '1',
     name: 'Solar-Powered Desk Lamp',
     price: 49.99,
-    image: 'solar-lamp.jpg',
+    image : 'ecogadget.jpeg',
+    // image: 'ecogadget.jpeg',
     description:
       'A revolutionary lamp that charges entirely through solar power. Perfect for your home office or bedside table.',
     features: [
@@ -21,7 +22,8 @@ export const products = [
     id: '2',
     name: 'Eco-Friendly Bamboo Keyboard',
     price: 79.99,
-    image: 'bamboo-keyboard.jpg',
+    image : 'ecogadget.jpeg',
+    // image: 'bamboo-keyboard.jpg',
     description:
       'A sleek wireless keyboard crafted from sustainable bamboo, offering an eco-friendly and stylish typing experience.',
     features: [
@@ -35,7 +37,8 @@ export const products = [
     id: '3',
     name: 'Smart Water Bottle',
     price: 39.99,
-    image: 'smart-bottle.jpg',
+    image : 'ecogadget.jpeg',
+    // image: 'smart-bottle.jpg',
     description:
       'Tracks your daily water intake and reminds you to stay hydrated with gentle glowing alerts.',
     features: [
@@ -49,7 +52,8 @@ export const products = [
     id: '4',
     name: 'Portable Solar Charger',
     price: 59.99,
-    image: 'solar-charger.jpg',
+    image : 'ecogadget.jpeg',
+    // image: 'solar-charger.jpg',
     description:
       'Charge your devices anywhere with this foldable and lightweight solar charging panel.',
     features: [
@@ -63,7 +67,8 @@ export const products = [
     id: '5',
     name: 'Air-Purifying Plant Pot',
     price: 29.99,
-    image: 'plant-pot.jpg',
+    image : 'ecogadget.jpeg',
+    // image: 'plant-pot.jpg',
     description:
       'A self-watering plant pot with an integrated air purifier to keep your home fresh and green.',
     features: [
@@ -77,7 +82,8 @@ export const products = [
     id: '6',
     name: 'Eco-Friendly Yoga Mat',
     price: 39.99,
-    image: 'yoga-mat.jpg',
+    image : 'ecogadget.jpeg',
+    // image: 'yoga-mat.jpg',
     description:
       'A sustainable yoga mat made from natural rubber, providing excellent grip and cushioning for your practice.',
     features: [
@@ -85,6 +91,36 @@ export const products = [
       'Biodegradable',
       'Extra thick for comfort',
       'Lightweight and portable'
+    ]
+  },
+  {
+    id: '7',
+    name: 'Biodegradable Phone Case',
+    price: 24.99,
+    image : 'ecogadget.jpeg',
+    // image: 'biodegradable-case.jpg',
+    description:
+      'A stylish phone case made from plant-based materials, offering protection without harming the planet.',
+    features: [
+      '100% biodegradable',
+      'Shock-absorbent design',
+      'Lightweight and slim',
+      'Available for various phone models'
+    ]
+  },
+  {
+    id: '8',
+    name: 'Sustainable Travel Mug',
+    price: 29.99,
+    image : 'ecogadget.jpeg',
+    // image: 'travel-mug.jpg',
+    description:
+      'A double-walled travel mug made from recycled materials, perfect for your morning coffee on the go.',
+    features: [
+      'Keeps drinks hot for 6 hours',
+      'Leak-proof lid',
+      'Fits in most car cup holders',
+      'Dishwasher safe'
     ]
   }
 
