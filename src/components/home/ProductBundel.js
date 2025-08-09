@@ -1,51 +1,36 @@
 
 
-// components/home/ProductBundles.js
+//File: components/home/ProductBundles.js
 
+import { bundles } from "@/content/Products";
 import BundleCard from "../ui/BundleCard";
 import Button from "../ui/Button";
 
 
-const bundles = [
-  {
-    name: "Smart Home Starter Kit",
-    discount: "Save 20%",
-    price: "$189 (value $235)",
-    items: [
-      "Solar Charger",
-      "Smart Thermostat", 
-      "Bamboo Speaker"
-    ],
-    image: "/bundles/starter-kit.jpg",
-    badge: "Most Popular"
-  },
-  {
-    name: "Eco-Friendly Office Bundle",
-    discount: "Save 15%",
-    price: "$159 (value $187)",
-    items: [
-      "Bamboo Keyboard",
-      "Recycled Paper Notebooks",
-      "Plant-Based Ink Pens"
-    ],
-    image: "/bundles/office-bundle.jpg",
-    badge: "Best Seller"
-  },
-  {
-    name: "Outdoor Adventure Kit",
-    discount: "Save 25%",
-    price: "$129 (value $172)",
-    items: [
-      "Portable Solar Charger",
-      "Eco-Friendly Water Bottle",
-      "Biodegradable Phone Case"
-    ],
-    image: "/bundles/adventure-kit.jpg",
-    badge: "Limited Edition"
+
+/*
+// API implementation - commented out for now
+async function fetchBundles() {
+  try {
+    const response = await fetch('/api/bundles');
+    if (!response.ok) {
+      throw new Error('Failed to fetch bundles');
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching bundles:', error);
+    // Return mock data as fallback
+    return bundles;
   }
-];
+}
+*/
 
 export default function ProductBundles() {
+  // Currently using mock data
+  // For API implementation, you would use:
+  // const [bundles, setBundles] = useState([]);
+  // useEffect(() => { fetchBundles().then(data => setBundles(data)); }, []);
+
   return (
     <section className="py-16 container mx-auto">
       <div className="flex justify-between items-center mb-8">
