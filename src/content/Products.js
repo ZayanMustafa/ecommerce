@@ -72,7 +72,22 @@ export const products = [
       'Minimalist ceramic design',
       'USB-powered fan'
     ]
+  },
+  {
+    id: '6',
+    name: 'Eco-Friendly Yoga Mat',
+    price: 39.99,
+    image: 'yoga-mat.jpg',
+    description:
+      'A sustainable yoga mat made from natural rubber, providing excellent grip and cushioning for your practice.',
+    features: [
+      'Non-toxic materials',
+      'Biodegradable',
+      'Extra thick for comfort',
+      'Lightweight and portable'
+    ]
   }
+
 ];
 
 
