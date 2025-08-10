@@ -3,7 +3,7 @@
 
 'use client';
 import { motion } from 'framer-motion';
-import Button from './Button';
+import Button from './Button.js';
 import useCart from '@/context/CartContext';
 import Image from 'next/image';
 

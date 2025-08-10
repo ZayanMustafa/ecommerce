@@ -1,3 +1,6 @@
+
+
+
 import { products } from "@/content/Products";
 import Image from "next/image";
 

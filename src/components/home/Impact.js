@@ -7,7 +7,7 @@ import {motion} from 'framer-motion';
 import Link from 'next/link';
 import CountUp from 'react-countup';
 import { GiTreeGrowth, GiWaterDrop, GiRecycle } from 'react-icons/gi';
-import Button from '../ui/Button';
+import Button from '../ui/Button.js';
 
 const metrics = [
   { 

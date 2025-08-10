@@ -1,9 +1,9 @@
 // components/cards/BundleCard.js
 'use client';
 import { motion } from 'framer-motion';
-import Button from '@/components/ui/Button';
+import Button from '@/components/ui/Button.js';
 import Image from 'next/image';
-import { FaCheck } from 'react-icons/fa'; // Importing check icon from React Icons
+import { FaCheck } from 'react-icons/fa'; 
 
 export default function BundleCard({
   name,

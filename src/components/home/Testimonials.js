@@ -3,7 +3,7 @@
 
 // components/home/Testimonials.js
 import { FaQuoteLeft, FaStar } from 'react-icons/fa';
-import Button from '../ui/Button';
+import Button from '../ui/Button.js';
 
 const testimonials = [
   {

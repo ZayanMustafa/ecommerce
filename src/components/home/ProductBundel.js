@@ -4,7 +4,7 @@
 
 import { bundles } from "@/content/Products";
 import BundleCard from "../ui/BundleCard";
-import Button from "../ui/Button";
+import Button from "../ui/Button.js";
 
 
 
