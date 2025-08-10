@@ -1,8 +1,10 @@
 
 
 
+
+
 'use client';
-import Button from '../../components/ui/Button';
+import Button from '../../components/ui/Button.js';
 import useCart from '@/context/CartContext';
 import { motion } from 'framer-motion';
 import Image from 'next/image';

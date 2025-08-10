@@ -1,13 +1,13 @@
+
+
+
 'use client';
 import OrderReview from '@/components/checkout/OrderRevirew';
 import PaymentForm from '@/components/checkout/PaymentForm';
 import ShippingForm from '@/components/checkout/ShippingForm';
 import CheckoutSteps from '@/components/sections/CheckoutSetup';
 import { useState } from 'react';
-// import CheckoutSteps from '@/components/checkout/CheckoutSteps';
-// import ShippingForm from '@/components/checkout/ShippingForm';
-// import PaymentForm from '@/components/checkout/PaymentForm';
-// import OrderReview from '@/components/checkout/OrderReview';
+
 
 export default function CheckoutPage() {
   const [step, setStep] = useState(1);

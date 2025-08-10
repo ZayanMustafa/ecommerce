@@ -1,6 +1,9 @@
+
+
+
 'use client';
 import { useState } from 'react';
-import Button from '@/components/ui/Button';
+import Button from '@/components/ui/Button.js';
 // import PaymentRadio from '@/components/ui/PaymentRadio';
 // import CardInput from '@/components/ui/CardInput';
 import { FaCreditCard, FaMoneyBillWave } from 'react-icons/fa';

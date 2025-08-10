@@ -1,6 +1,9 @@
+
+
+
 'use client';
-import Button from '@/components/ui/Button';
-import Input from '@/components/ui/Input';
+import Button from '@/components/ui/Button.js';
+import Input from '@/components/ui/Input.js';
 
 export default function ShippingForm({ formData, handleChange, nextStep }) {
   return (

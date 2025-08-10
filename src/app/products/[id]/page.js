@@ -1,7 +1,7 @@
 
 
 
-import { products } from "@/content/Products";
+import { products } from "@/content/Products.js";
 import Image from "next/image";
 
 export default function ProductDetail({ params }) {

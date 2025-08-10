@@ -1,7 +1,7 @@
 
 
 'use client';
-import ProductCard from '../ui/ProductCard';
+import ProductCard from '../ui/ProductCard.js';
 
 export default function ProductGrid({ products }) {
   return (

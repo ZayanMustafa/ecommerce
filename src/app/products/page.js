@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import ProductGrid from '@/components/sections/ProductGrid';
-import LoadingSkeleton from '@/components/ui/LoadingSkeleton';
+import LoadingSkeleton from '@/components/ui/LoadingSkeleton.js';
 
 // Static product data (fallback when API is not used)
 import { products as staticProducts } from '@/content/Products';

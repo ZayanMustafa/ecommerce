@@ -1,3 +1,6 @@
+
+
+
 import './globals.css';
 import { Inter, Poppins } from 'next/font/google';
 import Navbar from '@/components/ui/Navbar';
