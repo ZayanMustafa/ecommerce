@@ -19,6 +19,8 @@ export default function Button({
     gray: 'bg-gray-500 hover:bg-gray-600'
   };
 
+
+
   const sizeClasses = {
     sm: 'px-3 py-1 text-sm',
     md: 'px-4 py-2',
