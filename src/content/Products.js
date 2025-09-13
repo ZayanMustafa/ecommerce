@@ -1,6 +1,8 @@
 
 // File: src/content/Products.js
 
+
+
 export const products = [
   {
     id: '1',
